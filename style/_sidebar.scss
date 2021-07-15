@@ -1,0 +1,99 @@
+.sidebar{
+    background: $primary;
+    justify-content: space-between;
+    grid-column: 1/2;
+    grid-row: 1/5;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    h1{
+        margin: 10% 35%;
+        padding: .5rem;
+        font-size: 1.5rem;
+        background-color: black;
+        color: white;
+    }
+    .nama-foto{
+        color: white;
+        h4{
+            line-height: 1.5rem;
+            margin-bottom: -2rem;
+        }
+        img{
+            width: 40% ;
+            margin:3rem;
+        }
+    }
+    .tombol-biru{
+        background:$secondary;
+        margin-top:5rem;
+        padding: 3% 10%;
+        line-height: 2rem;
+
+    }
+    .litle-div{
+        margin-top: 10%;
+        margin-left:10%;
+        margin-right: 10%;
+        line-height: 2rem;
+        background:#2e2d28;
+        padding: 10%;
+        border-top:(2px dotted white);
+        border-bottom:(2px dotted white);
+        h2{
+            color: white;
+        }
+        p{
+            color: white;
+        }
+        div{
+            margin-top: .2rem;
+            border: solid white;
+            transition: color 1s, background-color 1s;
+            &:hover{
+                transition: .5s;
+                background-color: white;
+                a{  
+                    color: rgb(20, 20, 20);
+                    font-weight: bold;
+                    
+                }
+
+            }
+            &:active{
+                background: $background;
+                transition: none;
+                
+
+            }
+        }
+    }
+    .social-media{
+        font-size: .8rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 2rem;
+        .ini{
+            justify-content: space-between;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p{
+                color: rgb(109, 109, 109);
+                font-weight: bold;
+            }
+            .icon{
+                display: flex;
+                align-items: center;
+    
+            }
+
+        }
+
+    }
+    
+    
+}

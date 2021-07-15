@@ -1,0 +1,22 @@
+$primary: #24231F;
+$secondary:#005d88;
+$background:#E6E6E6;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display:grid;
+    background:$background;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:0.2fr 1.8fr 1.8fr ;
+}
+
+@import 'sidebar';
+@import 'topbar';
+@import 'isi';
